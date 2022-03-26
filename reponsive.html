@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reponsive </title>
+    <style>
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+        /* @Mmedia or @media screen and () */
+        /* Mobile First */
+        h1{
+            color: blue;
+        }
+        /* Tablets >= 768px*/
+        @media screen and (min-width: 768px) {}
+        /* Desktops >= 920px */
+        @media screen and (min-width: 920px) {
+            body{
+                background-color: crimson;
+            }
+            h1{
+                text-align: center;
+                color: chartreuse;
+            }
+        }
+        /* Widescreen */
+        @media screen and (min-width: 1200px) {
+            body{
+                 background-color: rgb(255, 0, 119);
+            }
+            h1{
+                color: blueviolet;
+                text-align: center;
+            }
+            #container{
+                border: 3px solid black;
+                width: auto;
+                max-width: 1200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+    </style>
+</head>
+<body><div id="container"> 
+    <h1>My Reponsive Site</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur vel corporis debitis suscipit at modi ex harum delectus perferendis blanditiis hic molestiae in fuga corrupti placeat sint, quae dolore!</p>
+</div></div>
+</body>
+</html>
